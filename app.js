@@ -6,28 +6,12 @@
            if(clicked_id == "one"){
             document.getElementById("one").style.display="none"
             document.getElementById("onel").style.display="block"
-
-            // document.getElementById("twol").style.display="none"
-            // document.getElementById("two").style.display="block"
-            // document.getElementById("threel").style.display="none"
-            // document.getElementById("three").style.display="block"
-            // document.getElementById("fourl").style.display="none"
-            // document.getElementById("four").style.display="block"
-            // document.getElementById("fivel").style.display="none"
-            // document.getElementById("five").style.display="block"
            }
            if (clicked_id == "two"){
             document.getElementById("one").style.display="none"
             document.getElementById("onel").style.display="block"
             document.getElementById("two").style.display="none"
             document.getElementById("twol").style.display="block"
-
-            // document.getElementById("threel").style.display="none"
-            // document.getElementById("three").style.display="block"
-            // document.getElementById("fourl").style.display="none"
-            // document.getElementById("four").style.display="block"
-            // document.getElementById("fivel").style.display="none"
-            // document.getElementById("five").style.display="block"
            }
            if(clicked_id == "three"){
             document.getElementById("one").style.display="none"
@@ -36,11 +20,6 @@
             document.getElementById("twol").style.display="block"
             document.getElementById("three").style.display="none"
             document.getElementById("threel").style.display="block"
-    
-            // document.getElementById("fourl").style.display="none"
-            // document.getElementById("four").style.display="block"
-            // document.getElementById("fivel").style.display="none"
-            // document.getElementById("five").style.display="block"
            }
            if(clicked_id == "four"){
             document.getElementById("one").style.display="none"
@@ -51,10 +30,6 @@
             document.getElementById("threel").style.display="block"
             document.getElementById("four").style.display="none"
             document.getElementById("fourl").style.display="block"
-
-            // document.getElementById("fivel").style.display="none"
-            // document.getElementById("five").style.display="block"
-
            }
            if(clicked_id == "five"){
             document.getElementById("one").style.display="none"
