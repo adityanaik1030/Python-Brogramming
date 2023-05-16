@@ -1,4 +1,4 @@
- 
+
     for(var i=0;i<11;i++){
         document.querySelectorAll("i")[i].addEventListener("click",function(event){
            let clicked_id = (event.target.id);
@@ -56,6 +56,8 @@
             document.getElementById("five").style.display="block"
            }
            if(clicked_id == "twol"){
+            document.getElementById("twol").style.display="none"
+            document.getElementById("two").style.display="block"
             document.getElementById("threel").style.display="none"
             document.getElementById("three").style.display="block"
             document.getElementById("fourl").style.display="none"
@@ -64,19 +66,23 @@
             document.getElementById("five").style.display="block"
            }
            if(clicked_id == "threel"){
+            document.getElementById("threel").style.display="none"
+            document.getElementById("three").style.display="block"
             document.getElementById("fourl").style.display="none"
             document.getElementById("four").style.display="block"
             document.getElementById("fivel").style.display="none"
             document.getElementById("five").style.display="block"
            }
            if(clicked_id == "fourl"){
+            document.getElementById("fourl").style.display="none"
+            document.getElementById("four").style.display="block"
+            document.getElementById("fivel").style.display="none"
+            document.getElementById("five").style.display="block"
+           }
+           if(clicked_id == "fivel"){
             document.getElementById("fivel").style.display="none"
             document.getElementById("five").style.display="block"
            }
         })
     }
     
-
-
-
-
