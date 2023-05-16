@@ -1,0 +1,204 @@
+/* For separate pages */
+body{
+    background-color: #d3cfe9;
+    margin: 0;
+    font-family: 'McLaren', cursive;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: aliceblue;
+    margin-bottom: 50px;
+}
+nav h1{
+    margin-left: -120px;
+
+}
+nav ul{
+    margin: 0;
+}
+nav li{
+    list-style-type: none;
+    display: inline-block;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-top: 22px;
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: purple;
+}
+.card{
+    background-color: white;
+    width: 75%;
+    margin: auto;
+    border-radius: 25px;
+    margin-bottom: 70px;
+    box-shadow: 30px 50px 60px  rgb(0 0 0 / 8%);
+}
+.card h1{
+    padding: 30px 40px 10px;
+    margin: 0;
+}
+.card p{
+    margin: 0;
+    line-height: 2;
+    padding: 15px 40px 0;
+    font-size: 18px;
+}
+.rule{
+    width: 38%;
+    height: 3px;
+    background-color: #2f3e59;
+    margin: 0 0 0 40px;
+}
+.ifimg{
+    display: flex;
+    width: 900px;
+    height: 250px;
+    margin: auto;
+}
+.ifelse{
+    display: flex;
+    width: 900px;
+    height: 350px;
+    margin: auto;
+}
+.elseif{
+    display: flex;
+    width: 900px;
+    height: 500px;
+    margin: auto;
+}
+.switch{
+    display: flex;
+    width: 900px;
+    height: 500px;
+    margin: auto;
+}
+.loopsimg{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+.controlstatementsimg{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+.commentsimg{
+    display: flex;
+    margin: auto;
+    height: 300px;
+    width: 800px;
+}
+.variableimg{
+    display: flex;
+    margin: auto;
+    height: 300px;
+    width: 650px;
+}
+.functionimg{
+    display: flex;
+    margin: auto;
+    height: 300px;
+    width: 650px;
+}
+.function1img{
+    display: flex;
+    margin: auto;
+    height: 400px;
+    width: 650px;
+}
+.input{
+    display: block;
+    margin: auto;
+    height: 200px;
+    width: 500px;
+}
+.input1{
+    display: block;
+    margin: auto;
+    height: 300px;
+    width: 650px;
+}
+/* operators */
+h3{
+    padding: 5px 40px 5px;
+}
+.operators li{
+    display: block;
+    margin: auto;
+    font-size: 20px;
+    padding: 10px 50px 10px 10px;
+}
+.arithmeticimg{
+    display: flex;
+    margin: auto;
+    height: 450px;
+    width: 650px;
+}
+.comparisonimg{
+    display: flex;
+    margin: auto;
+    height: 450px;
+    width: 650px;
+}
+.logicalimg{
+    display: flex;
+    margin: auto;
+    height: 750px;
+    width: 750px;
+}
+.bitwiseimg{
+    display: flex;
+    margin: auto;
+    height: 550px;
+    width: 650px;
+}
+.assignmentimg{
+    display: flex;
+    margin: auto;
+    height: 400px;
+    width: 650px;
+}
+.membershipimg{
+    display: block;
+    margin: auto;
+    width: 600px;
+    height: 550px;
+}
+.lists{
+    display: block;
+    margin: auto;
+    width: 500px;
+    height: 250px;
+}
+.opsOnList{
+    display: block;
+    margin: auto;
+    width: 700px;
+    height: 450px;
+}
+.dic{
+    display: block;
+    margin: auto;
+    width: 650px;
+    height: 350px;
+}
+.accessingValDic{
+    display: block;
+    margin: auto;
+    width: 650px;
+    height: 300px;
+}
+.addingValDic{
+    display: block;
+    margin: auto;
+    width: 650px;
+    height: 450px;
+}

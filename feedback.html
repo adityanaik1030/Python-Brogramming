@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Goole Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=McLaren&display=swap" rel="stylesheet">
+    <!-- icons -->
+    <script src="https://kit.fontawesome.com/58f071ccd1.js" crossorigin="anonymous"></script>
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="feedback.css">
+    <title>Python BROgramming - Feedback</title>
+</head>
+<body>
+    <nav>
+        <h1>Python BROgramming</h1>
+        <div class="navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li>Feedback</li>
+            </ul>
+            <i class="iconn" class="fa-solid fa-bars"></i>
+        </div>  
+    </nav>
+    <div class="card">
+        <!-- <hr class="rule"> -->
+        <h1 class="feedbackHeading">Your Feedback.</h1>
+        <hr>
+        <h2>We would like your feedback to improve our website.</h2>
+        <h3>What is your opinion about this page?</h3>
+        <div class="emoji-container">
+            <i id="onel" class="fa-solid fa-face-frown fa-2xl"></i>
+            <i id="one" class="fa-regular fa-face-frown fa-2xl"></i>
+            <i id="twol" class="fa-solid fa-face-frown-open fa-2xl"></i>
+            <i id="two" class="fa-regular fa-face-frown-open fa-2xl"></i>
+            <i id="threel" class="fa-solid fa-face-meh fa-2xl"></i>
+            <i id="three" class="fa-regular fa-face-meh fa-2xl"></i>
+            <i id="fourl" class="fa-solid fa-face-smile fa-2xl"></i>
+            <i id="four" class="fa-regular fa-face-smile fa-2xl"></i>
+            <i id="fivel" class="fa-solid fa-face-grin-stars fa-2xl"></i>
+            <i id="five" class="fa-regular fa-face-grin-stars fa-2xl"></i>
+        </div>
+        <form action="mailto:footballeradi10@gmail.com" method="post" enctype="text/plain">
+            <!-- <label for="name">Your Name : </label> -->
+            <input type="text" name="name" placeholder="Your Name" autocomplete="off"><br>
+            <!-- <label for="stream">Your Stream : </label> -->
+            <select name="stream" id="streams">
+                <option value="ys">Your Stream</option>
+                <option value="BCA">BCA</option>
+                <option value="BBA">BBA</option>
+                <option value="B.Com">B.Com</option>
+                <option value="BA">BA</option>
+            </select>
+            <textarea name="message" id="message"  placeholder="Type Your feedback" cols="30"></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
